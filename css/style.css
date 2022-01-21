@@ -38,15 +38,11 @@ video{
 /*=======================PROVINCES=================================*/
 .provinces{
   width: 100%;
-  height: 800px;
+  height: 2800px;
   background-color: whitesmoke;
   display: flex;
-  flex-direction: column;
-}
-.row1{
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-content: center;
 }
 
 .title{ 
@@ -59,7 +55,9 @@ video{
 .province{  
   width: 350px;  
   height: 250px;   
-  position: relative;  
+  position: relative; 
+  margin-top: 50px; 
+  margin-right: 50px;
 }  
 .province .front,  
 .province .back{  
