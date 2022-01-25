@@ -302,7 +302,7 @@
   /*=======================PROVINCES=================================*/
   .provinces{
     width: 100%;
-    height: 4100px;
+    height: 3000px;
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -318,11 +318,11 @@
   }
   /*=======================FLIP======================================*/
   .subtitle{
-    font-size: 80px;
+    font-size: 40px;
   }
   .province{  
-    width: 550px;  
-    height: 450px;   
+    width: 400px;  
+    height: 300px;   
     position: relative; 
     margin-top: 50px; 
     margin-right: 50px;
@@ -330,8 +330,8 @@
   .province .front,  
   .province .back{  
     position: absolute;  
-    width: 550px;  
-    height: 450px;   
+    width: 400px;  
+    height: 300px;   
     background: white;  
     backface-visibility: hidden;  
     transform-style: preserve-3d;  
